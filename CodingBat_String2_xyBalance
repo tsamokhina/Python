@@ -1,0 +1,5 @@
+public boolean xyBalance(String str) {
+    return ((str.lastIndexOf("x") < str.lastIndexOf("y")) ||
+    (!str.contains("x") && !str.contains("y")));
+    
+}
